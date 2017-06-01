@@ -1,31 +1,45 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
 body{
     background-color: #68cdd5;
     margin: auto;
     color: white;
 }
 .wrap{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 .header{
     padding-top: 4%;
-
+    padding-left:5%;
 }
 .content{
+
     margin:3%;
     padding: 10%;
     text-align: center;
 }
+.p1{
+    margin: 10% auto 0;
+    text-align: left;
+    font-size: 2rem;
+}
 .footer{
-    padding: 10%;
+    margin: 10%;
 }
 .footer-l{
     float: left;
     text-align: center;
+    font-size: 2rem;
 }
 .footer-r{
     float: right;
     text-align: center;
+    font-size: 2rem;
 }
-
+img{
+    max-width: 100%;
+}
